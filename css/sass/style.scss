@@ -1,0 +1,98 @@
+@import "normalize";
+
+html {
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f7f7f7;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0.75em 0;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin: 0.75em 0;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 1.50rem;
+  margin: 0.75em 0;
+}
+
+h4 {
+  font-size: 1.25rem;
+  margin: 0.75em 0;
+}
+
+p {
+  font-size: 1rem;
+  margin: 0.75em 0;
+}
+
+span {
+  color: #757575;
+
+  &#heart {
+    color: #e74c3c;
+  }
+
+  &#coffee {
+    color: #a0522d;
+  }
+
+  &#sleep {
+    text-decoration: line-through;
+  }
+
+  &#scrobble_pre {
+    color: #000;
+  }
+}
+
+a {
+  padding: 0 0.5rem;
+  color: blue;
+  text-decoration: none;
+
+  &:visited {
+    color: blue;
+  }
+
+  &:hover {
+    text-decoration: underline;
+    background-color: blue;
+    color: white;
+  }
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+#container {
+  max-width: 46rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+#content {
+  margin: 0 1rem;
+}
+
+#hello {
+  margin-top: 0;
+}
+
+#copyright {
+  margin-bottom: 0;
+}
