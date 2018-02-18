@@ -443,7 +443,7 @@ span {
     color: #000; }
 
 a {
-  padding: 0 0.5rem;
+  padding: 0 0.1rem;
   color: blue;
   text-decoration: none; }
   a:visited {
