@@ -36,28 +36,11 @@ p {
   margin: 0.75em 0;
 }
 
-span {
-  color: #757575;
-
-  &#heart {
-    color: #e74c3c;
-  }
-
-  &#coffee {
-    color: #a0522d;
-  }
-
-  &#sleep {
-    text-decoration: line-through;
-  }
-
-  &#scrobble_pre {
-    color: #000;
-  }
+#sleep {
+  text-decoration: line-through;
 }
 
 a {
-  padding: 0 0.1rem;
   color: blue;
   text-decoration: none;
 
