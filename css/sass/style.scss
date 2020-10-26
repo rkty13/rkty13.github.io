@@ -2,7 +2,10 @@
 
 @mixin list-emoji($id, $emoji) {
   &##{$id} {
-    list-style-type: $emoji + ' ';
+    &::before {
+      content: $emoji;
+      margin-right: 0.5rem;
+    }
   }
 }
 
@@ -50,12 +53,12 @@ a {
 }
 
 ul {
-  padding-left: 1.5rem;
+  padding-left: 0;
 
   li {
     list-style: none;
+    list-style-position: outside;
     margin-bottom: 0.5rem;
-    margin-left: 0.5rem;
 
     @include list-emoji('nerd', '🤓');
     @include list-emoji('professor', '👨‍🏫');
