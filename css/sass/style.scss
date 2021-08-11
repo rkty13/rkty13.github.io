@@ -62,13 +62,13 @@ ul {
 
     @include list-emoji('nerd', '🤓');
     @include list-emoji('professor', '👨‍🏫');
-    @include list-emoji('stonks', '📈');
     @include list-emoji('music', '🎧');
     @include list-emoji('tasty', '😋');
     @include list-emoji('golf', '🏌️‍♂️');
     @include list-emoji('coder', '👨‍💻');
     @include list-emoji('kiosk', '🤖');
     @include list-emoji('apple', '📱');
+    @include list-emoji('card', '💳');
   }
 }
 
